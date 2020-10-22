@@ -45,5 +45,5 @@ volumes:
       
 ##### Test:
 
-      Brouse http://locahost:9000
+      Brouse http://localhost:9000
       
