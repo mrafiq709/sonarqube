@@ -47,3 +47,16 @@ volumes:
 
       Brouse http://localhost:9000
       
+##### Process
+      Go to above URL,
+      Create project and fill the required steps
+      and you will get command like bellow:
+      
+      sonar-scanner \
+      -Dsonar.projectKey=soundsupple \
+      -Dsonar.sources=. \
+      -Dsonar.host.url=http://localhost:9000 \
+      -Dsonar.login=cdbcb34d125935b3de0ed8e1318fbb41d2a36122
+      
+      Here Dsonar.sources => is your project root directory
+      
