@@ -36,7 +36,7 @@ volumes:
   sonarqube_temp:
   ```
 ##### Install sonar-scanner
-      download from https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/
+      download from https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.5.0.2216-linux.zip
       sudo nano ~/.profile
       export PATH=$PATH:/home/rafiq/sonarqube-test/sonar-scanner-cli-4.5.0.2216-linux/sonar-scanner-4.5.0.2216-linux/bin
       export PATH
